@@ -14,6 +14,7 @@ Matching example:
 # Speed
 Repeat the matching test for 100 times took an average of 19.56ms on NVIDIA GeForce GTX 1080:
 ![timecost-of-all](https://github.com/Accustomer/CUDA-AKAZE/blob/main/data/timecost.png)
+17 times faster than OpenCV-CPU version. An integer-based version also supplied here.
 
 Compare to [nbergst](https://github.com/nbergst/akaze), there's an improvement of 3.5ms:
 ![timecost](https://user-images.githubusercontent.com/46698134/224546520-02d06e03-fb1e-4dbc-aa70-508ff1dd2501.png)
